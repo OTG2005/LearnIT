@@ -1,0 +1,88 @@
+.nav {
+    float: left;
+    background-color: #c0392b;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    line-height: 50%;
+    display: block;
+    overflow: hidden;
+}
+
+.navBar {
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+    letter-spacing: 4px;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 1px;
+    font-weight: 500;
+    padding:18.4px 10px;
+}
+
+.nav a:hover{
+    background: #fff;
+    color: #130f40;
+}
+
+.nav_shading{
+    background: #ff3e3e;
+    color: #fff;
+}
+.navBarright {
+    text-align: right;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+    letter-spacing: 4px;
+    font-size: 1.25rem;
+    color: #fff;
+    margin: 0 1px;
+    font-weight: 500;
+    padding:1.52rem 10px;
+}
+
+.form {
+    width: auto;
+    display: block;
+    margin-top: -1.2rem;
+    margin-right: -0.2rem;
+}
+
+.input {
+    width: 14rem;
+    padding: 0.4rem 1rem;
+    background-color: #cbcbcb;
+    border: 0px;
+    font-size: 1rem;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.input:focus {
+    background-color: #fff;
+    color: #000;
+    transition: background 0.3s, border-color 0.3s;
+}
+
+.button {
+    padding: 0.4rem 0.8rem;
+    background-color: #ff3e3e;
+    color: #fff;
+    border: 0px;
+    font-size: 1rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000;
+}
+
+.arabicnavbar {
+    letter-spacing: 0;
+}

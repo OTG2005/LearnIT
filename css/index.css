@@ -1,0 +1,53 @@
+.body {
+    padding-top: 2rem;
+}
+
+div {
+    text-align: center;
+}
+
+.homebutton {
+    background: rgb(147, 38, 38);
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    margin: 0 1rem;
+    padding: 5rem 1rem;
+}
+
+.homebutton h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: normal;
+}
+
+.homebutton:hover {
+    background: rgb(6, 0, 66);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.tr {
+    background-color: #ffffff;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 0;
+    border-radius: 20px;
+}
+
+.successmessage {
+    color: rgb(1, 141, 1);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.errormessage {
+    color: rgb(141, 1, 1);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}

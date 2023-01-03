@@ -1,0 +1,10 @@
+body {
+   justify-content: center;
+   align-items: center;
+}
+
+.paymentTable {
+   background: #fff;
+   width: 75%;
+   margin: 2rem auto 0 auto;
+}
